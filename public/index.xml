@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TA Guide on My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content in TA Guide on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Oct 2021 09:28:27 -0500</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example Chapter</title>
+      <link>http://example.org/example-chapter/</link>
+      <pubDate>Tue, 08 Nov 2022 11:03:00 -0600</pubDate>
+      <guid>http://example.org/example-chapter/</guid>
+      <description>Major Concepts &amp;amp; Key Terminology Content Links Slides Walkthrough Exercises Next Steps </description>
+    </item>
+    <item>
+      <title>Checkpoint One</title>
+      <link>http://example.org/checkpoint-1/</link>
+      <pubDate>Fri, 01 Oct 2021 09:28:27 -0500</pubDate>
+      <guid>http://example.org/checkpoint-1/</guid>
+      <description>How to Store Data Primitive variables Question to Learner Can you declare a variable?
+Why do programmers do this?
+Expected Answer let name = Pan; Textbook Answer: Data and Variables
+Video Reference Youtube Video Link
+Bonus Question: Explain how you would save and store an age of a cat.
+Answer: A variable is a name that refers to a value
+Arrays Data types Functions Objects (covered in class 7) Dot access operator How JS stores and manipulates data Console.</description>
+    </item>
+    <item>
+      <title>Checkpoint Two</title>
+      <link>http://example.org/checkpoint-2/</link>
+      <pubDate>Fri, 01 Oct 2021 09:28:27 -0500</pubDate>
+      <guid>http://example.org/checkpoint-2/</guid>
+      <description>How Loops Work Topic How to read a JS file tree How to run a program Getting user input How JS stores and manipulates data Question to Learner How do you pass a value into a function and then get a value out of a function?
+How do you decide when a function has a return value?
+Expected Answer function (num){ let total = num +num; return total}; Bonus Write a function that takes in a number to add to another number.</description>
+    </item>
+    <item>
+      <title>Checkpoint Three</title>
+      <link>http://example.org/checkpoint-3/</link>
+      <pubDate>Fri, 01 Oct 2021 09:28:27 -0500</pubDate>
+      <guid>http://example.org/checkpoint-3/</guid>
+      <description>This is Checkpoint 3 title here is topic one here is topic two</description>
+    </item>
+  </channel>
+</rss>

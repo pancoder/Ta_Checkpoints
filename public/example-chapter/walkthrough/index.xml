@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Walkthrough on My New Hugo Site</title>
+    <link>http://example.org/example-chapter/walkthrough/</link>
+    <description>Recent content in Walkthrough on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Nov 2022 11:03:00 -0600</lastBuildDate><atom:link href="http://example.org/example-chapter/walkthrough/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Step 1</title>
+      <link>http://example.org/example-chapter/walkthrough/walkthrough-step1/</link>
+      <pubDate>Tue, 08 Nov 2022 11:03:00 -0600</pubDate>
+      <guid>http://example.org/example-chapter/walkthrough/walkthrough-step1/</guid>
+      <description>Step 1 </description>
+    </item>
+    <item>
+      <title>Step 2</title>
+      <link>http://example.org/example-chapter/walkthrough/walkthrough-step2/</link>
+      <pubDate>Tue, 08 Nov 2022 11:03:00 -0600</pubDate>
+      <guid>http://example.org/example-chapter/walkthrough/walkthrough-step2/</guid>
+      <description>Step 2 </description>
+    </item>
+  </channel>
+</rss>

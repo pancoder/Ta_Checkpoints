@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+		<link rel="stylesheet" href="https://unpkg.com/reveal.js@4.0.2/dist/reset.css">
+		<link rel="stylesheet" href="https://unpkg.com/reveal.js@4.0.2/dist/reveal.css">
+		<link rel="stylesheet" href="https://unpkg.com/reveal.js@4.0.2/dist/theme/black.css" id="theme">
+		
+    <link href="/css/atom-one-dark-reasonable.css" rel="stylesheet">
+    
+    <link href="/css/theme.css" rel="stylesheet">
+    <link href="/css/hugo-theme.css" rel="stylesheet">
+    
+    <link href="/css/slides.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown
+				         data-separator="^---"
+					 data-separator-vertical="^___"
+           data-separator-notes="^Notes:">
+				
+&lt;!-- Copy everything between open and closing slide tags from _index.md --&gt;
+
+## Slide Deck Title
+
+---
+
+## Slide 1
+
+___
+
+### Slide 1 Vertical Slide
+
+---
+
+## Slide 2
+
+___
+
+### Slide 2 Verticial Slide
+				</section>
+			</div>
+		</div>	
+
+		<script src="https://unpkg.com/reveal.js@4.0.2/dist/reveal.js"></script>
+		<script src="https://unpkg.com/reveal.js@4.0.2/plugin/notes/notes.js"></script>
+		<script src="https://unpkg.com/reveal.js@4.0.2/plugin/markdown/markdown.js"></script>
+		<script src="https://unpkg.com/reveal.js@4.0.2/plugin/highlight/highlight.js"></script>
+
+		<script>
+			Reveal.initialize({
+          plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+          
+          hash: true,
+          respondToHashChanges: true,
+          overview: true,
+          controlsTutorial: true,
+          width: "90%",
+          height: "90%",
+          margin: 0.1
+      });
+		</script>
+	</body>
+</html>

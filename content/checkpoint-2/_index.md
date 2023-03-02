@@ -1,50 +1,94 @@
 ---
+
 title: "Checkpoint Two"
-date: 2021-10-01T09:28:27-05:00
 draft: false
 hidden: false
+weight: 105
 ---
 
-## How Loops Work
+## Iteration and Project Files
 
-### Topic
 ### How to read a JS file tree
-### How to run a program
-### Getting user input
-### How JS stores and manipulates data
-
 {{% notice orange "Question to Learner" %}}
-How do you pass a value into a function and then get a value out of a function? 
-
-How do you decide when a function has a return value?
+What is index.js?
+What does it do?
 {{% /notice %}}
 
 {{% notice blue "Expected Answer" %}}
-```JavaScript
-function (num){ let total = num +num; return total};
-```
+Index is the main file.  No logic should be in this file and ideally should only import or require files and have calls. The code that contains logic is usually in other files 
+
+`Textbook Answer:`
+[How does node know where to look?](https://education.launchcode.org/intro-to-professional-web-dev/chapters/modules/require-modules.html#how-does-node-know-where-to-look)
+
+`Video Reference` []()
 {{% /notice %}}
 
-{{% notice green "Bonus" %}}
-Write a function that takes in a number to add to another number. 
+{{% notice green "Mastery Question" %}}
+`Question`: What is index.js and what does it do?
 
-Have that function return the value of the sum of those numbers, console log the result of that function
+`Answer`: Index.js is like home base for projects. This is where projects house the run command. In contrast additional files can be added to house the different thought processes related to the project. 
+
 {{% /notice %}}
 
-### How to call a function in a function 
+### How to run a program
+{{% notice orange "Question to Learner" %}}
+When you run a program what file is it running from?
+{{% /notice %}}
+
+{{% notice blue "Expected Answer" %}}
+The main file ie. the index file. The index file contains the calls to run my code
+
+`Textbook Answer:`
+[Creating Functions](https://education.launchcode.org/intro-to-professional-web-dev/chapters/functions/creating-functions.html?highlight=run)
+
+`Video Reference` []()
+{{% /notice %}}
+
+{{% notice green "Mastery Question" %}}
+`Question`: When you run a program what file is it running from?
+
+`Answer`: The index file with a run command.
+{{% /notice %}}
+
+### How to call a function in a function
+{{% notice orange "Question to Learner" %}}
+Can you call a function with in another function? Show me an example.
+{{% /notice %}}
+
+{{% notice blue "Expected Answer" %}}
+Yes, here is an example. 
+
+`Textbook Answer:`
+[Composing Functions](https://education.launchcode.org/intro-to-professional-web-dev/chapters/functions/composing-functions.html)
+
+`Video Reference` []()
+{{% /notice %}}
+
+{{% notice green "Mastery Question" %}}
+`Question: What is the value of function runProgram( )?
+
+`Answer`: The output of the project
+
+{{% /notice %}}
+
 ### How to call a function in an object
-### What does the function runProgram(){}; intended to do?
-### How to read the .js file?
-### Case insensitivity and string methods
-### How to iterate through a string
-## How JS stores and manipulates data 
-### For in loops
-### for the check point questions below refrer to the code block example in yellow. Questions 13-20, in Column C, line up to code in column D.
-### What is a key ?  what is a value? can you write an example of an Object that shows keys and value pairs
-### How do you print out all the keys?
-### Given an object with Key value pairs how do you print out all the values?
-### How to read project files to understand Function calls
-### How sto store data
-### Debugging 
-### for loops iterating  through an object?
-### Return values
+{{% notice orange "Question to Learner" %}}
+How would you use an object to store a function? How would you call it? 
+Can you create an example?
+{{% /notice %}}
+
+{{% notice blue "Expected Answer" %}}
+I could use an anonymous function. ```JavaScript
+let userNameInput = function(name){
+let name = Pan;
+};
+
+const namePrint =[ {name: userNameInput}];
+
+```
+`Textbook Answer:`
+[Anonymous Functions](https://education.launchcode.org/intro-to-professional-web-dev/chapters/more-on-functions/anonymous-functions.html?highlight=anonymous%20functions)
+
+`Video Reference` []()
+{{% /notice %}}
+
